@@ -1,0 +1,7 @@
+# PM은 모든 영역에 대해 승인 권한을 가짐
+* @Zyoze
+
+# 각 파트 리드가 해당 폴더 수정 시 승인하도록 지정
+/design/   @Design_Lead_아이디
+/frontend/ @Frontend_Lead_아이디
+/backend/  @Backend_Lead_아이디
