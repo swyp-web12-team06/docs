@@ -6,7 +6,7 @@ body:
     id: description
     attributes:
       label: 작업 내용
-      placeholder: "작업 내용을 상세히 적어주세요."
+      placeholder: "작업 내용을 상세히 적어주세요"
     validations:
       required: true
   - type: dropdown
