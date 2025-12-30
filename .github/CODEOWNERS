@@ -2,6 +2,6 @@
 * @Zyoze
 
 # 각 파트 리드가 해당 폴더 수정 시 승인하도록 지정
-# /design/   @Design_Lead_아이디
-# /frontend/ @Frontend_Lead_아이디
-# /backend/  @Backend_Lead_아이디
+/design/   @kwones0816-debug
+/frontend/ @xorms571
+/backend/  @WooWon0514
