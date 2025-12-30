@@ -1,19 +1,12 @@
 name: "💡 PM 작업"
-description: "PM 팀 작업 요청"
+description: "PM 작업 생성"
 labels: ["team: PM"]
 body:
   - type: input
     id: title
     attributes:
-      label: 작업 제목
-      placeholder: "예: 스프린트 계획 수립"
-    validations:
-      required: true
-  - type: textarea
-    id: description
-    attributes:
       label: 작업 내용
-      placeholder: "작업 내용을 상세히 적어주세요"
+      placeholder: "작업 내용을 상세히 적어주세요."
     validations:
       required: true
   - type: dropdown
