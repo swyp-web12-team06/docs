@@ -1,0 +1,28 @@
+name: "🖥 Frontend 작업"
+description: "프론트엔드 팀 작업 요청"
+labels: ["team: Frontend"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: 작업 제목
+      placeholder: "예: 로그인 페이지 UI 구현"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 작업 내용
+      placeholder: "작업 내용을 상세히 적어주세요"
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 우선순위
+      options:
+        - 높음
+        - 중간
+        - 낮음
+    validations:
+      required: true
