@@ -2,11 +2,11 @@ name: "💡 PM 작업"
 description: "PM 작업 생성"
 labels: ["team: PM"]
 body:
-  - type: input
-    id: title
+  - type: textarea
+    id: description
     attributes:
       label: 작업 내용
-      placeholder: "작업 내용을 상세히 적어주세요."
+      placeholder: "작업 내용을 상세히 적어주세요"
     validations:
       required: true
   - type: dropdown
